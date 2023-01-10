@@ -1,0 +1,563 @@
+{
+  "info": {
+    "salon": {
+      "store"     : "Rejuvenation Nails & Spa",
+      "slug"      : "Rejuvenation-nails-spa",
+      "phone"     : "(760) 656-0286",
+      "email"     : "huuphucnguyen8312@gmail.com",
+      "address"   : "477 S Palm Canyon Dr, Palm Springs, California 92262",
+      "district"  : "Palm Springs",
+      "state"     : "California 92262",
+      "time_1"    : "[Mon - Sat] 09:00 AM - 07:00 PM",
+      "time_2"    : "[Sun] 10:00 AM - 06:00 PM"
+    },
+    "social": {
+        "facebook"  :   "https://www.facebook.com/rejuvenationnailsandspa",
+        "instagram" :   "https://www.instagram.com/rejuvenationnails_palmsprings",
+        "google"    :   "https://goo.gl/maps/NubsfwMENDxRD6qR8",
+        "booking"   :   "https://www.lldtek.com/salon/appt/NTQwMDh8cmVqdXZlNDc3c3xDQV8wODQzMHw0MzBjZDkwMjFhNjYzZDIxYjlkNmI5NjMwOGYzODRlMg==",
+        "maps"      :   "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.8372102701255!2d-116.54917114872595!3d33.816513837467284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db1bff7d5cc317%3A0xcc3eb3f2c8009815!2sRejuvenation%20Nails%20%26%20Spa!5e0!3m2!1sen!2s!4v1673252303624!5m2!1sen!2s"
+    },
+    "color": {
+      "primary"               :   "#1A1A1A",
+      "primary_light"         :   "#727272",
+      "primary_hover"         :   "#87DD2C",
+      "secondary"             :   "#90C73E",
+      "secondary_hover"       :   "#88BC3A",
+      "text_primary"          :   "#FFFFFF",
+      "text_primary_hover"    :   "#FFFFFF",
+      "text_secondary"        :   "#FFFFFF",
+      "text_secondary_hover"  :   "#FFFFFF",
+      "text_title"            :   "#429D64",
+      "text_title_hover"      :   "#90C73E"
+  },
+    "debug": "on",
+    "path_image": "images",
+    "domain": "https://rejuvenationnailspa.com/"
+  },
+ 
+  "gallery": [
+    {
+      "name": "gallery-01",
+      "url": "Rejuvenation-nails-spa-specialties-01.jpg",
+      "home": true
+    },
+    {
+      "name": "gallery-02",
+      "url": "Rejuvenation-nails-spa-specialties-02.jpg",
+      "home": false
+    },
+    {
+      "name": "gallery-03",
+      "url": "Rejuvenation-nails-spa-specialties-03.jpg",
+      "home": false
+    },
+    {
+      "name": "gallery-04",
+      "url": "Rejuvenation-nails-spa-specialties-04.jpg",
+      "home": false
+    },
+    {
+      "name": "gallery-05",
+      "url": "Rejuvenation-nails-spa-specialties-05.jpg",
+      "home": true
+    },
+    {
+      "name": "gallery-06",
+      "url": "Rejuvenation-nails-spa-specialties-06.jpg",
+      "home": false
+    },
+    {
+      "name": "gallery-07",
+      "url": "Rejuvenation-nails-spa-specialties-07.jpg",
+      "home": true
+    },
+    {
+      "name": "gallery-08",
+      "url": "Rejuvenation-nails-spa-specialties-08.jpg",
+      "home": true
+    },
+    {
+      "name": "gallery-09",
+      "url": "Rejuvenation-nails-spa-specialties-09.jpg",
+      "home": false
+    }
+  ],
+  "specialties": [
+    {
+      "name": "specialties-02",
+      "url": "Rejuvenation-nails-spa-specialties-08.jpg"
+    },
+    {
+      "name": "specialties-03",
+      "url": "Rejuvenation-nails-spa-specialties-07.jpg"
+    },
+    {
+      "name": "specialties-04",
+      "url": "Rejuvenation-nails-spa-specialties-06.jpg"
+    },
+    {
+      "name": "specialties-05",
+      "url": "Rejuvenation-nails-spa-specialties-05.jpg"
+    },
+    {
+      "name": "specialties-06",
+      "url": "Rejuvenation-nails-spa-specialties-04.jpg"
+    },
+    {
+      "name": "specialties-07",
+      "url": "Rejuvenation-nails-spa-specialties-03.jpg"
+    },
+    {
+      "name": "specialties-08",
+      "url": "Rejuvenation-nails-spa-specialties-02.jpg"
+    },
+    {
+      "name": "specialties-09",
+      "url": "Rejuvenation-nails-spa-specialties-01.jpg"
+    }
+  ],
+  
+  "categories": [
+    {
+      "name": "MANICURE & PEDICURE",
+      "target": "MANICUREPEDICURE",
+      "targetTitle": "MANICURE & PEDICURE",
+      "src": "icon-03.png",
+      "home": true
+    },
+    {
+      "name": "NAIL ENHANCEMENT",
+      "target": "NAILENHANCEMENT",
+      "targetTitle": "NAIL ENHANCEMENT",
+      "src": "icon-02.png",
+      "home": true
+    },
+    {
+      "name": "ADDITIONAL SERVICES",
+      "target": "ADDITIONALSERVICES",
+      "targetTitle": "ADDITIONAL SERVICES",
+      "src": "icon-01.png",
+      "home": true
+    },
+    {
+      "name": "WAXING",
+      "target": "WAXING",
+      "targetTitle": "WAXING",
+      "src": "icon-04.png",
+      "home": true
+    },
+    {
+      "name": "ADD-ON",
+      "target": "ADDON",
+      "targetTitle": "ADD-ON",
+      "src": "icon-05.png",
+      "home": true
+    },
+    {
+      "name": "FACIAL",
+      "target": "FACIAL",
+      "targetTitle": "FACIAL",
+      "src": "icon-06.png",
+      "home": true
+    }
+  ],
+  
+  "services": [
+    {
+      "category": "MANICURE & PEDICURE",
+      "name": "Classic Pedicure",
+      "url": "",
+      "price": 30,
+      "plus": false
+    },
+    {
+      "category": "MANICURE & PEDICURE",
+      "name": "Hot Stone Pedicure",
+      "url": "",
+      "price": 37,
+      "plus": false
+    },
+    {
+      "category": "MANICURE & PEDICURE",
+      "name": "Tropical Paradise Spa Pedicure",
+      "url": "",
+      "price": 47,
+      "plus": false
+    },
+    {
+      "category": "MANICURE & PEDICURE",
+      "name": "Volcano Deluxe Spa Pedicure",
+      "url": "",
+      "price": 60,
+      "plus": false
+    },
+    {
+      "category": "MANICURE & PEDICURE",
+      "name": "Ultimate Spa Pedicure",
+      "url": "",
+      "price": 75,
+      "plus": false
+    },
+    {
+      "category": "MANICURE & PEDICURE",
+      "name": "Classic Manicure",
+      "url": "",
+      "price": 23,
+      "plus": false
+    },
+    {
+      "category": "MANICURE & PEDICURE",
+      "name": "Tropical Scrub Manicure",
+      "url": "",
+      "price": 27,
+      "plus": false
+    },
+    {
+      "category": "MANICURE & PEDICURE",
+      "name": "Deluxe Manicure",
+      "url": "",
+      "price": 35,
+      "plus": false
+    },
+    {
+      "category": "MANICURE & PEDICURE",
+      "name": "Ultimate Manicure",
+      "url": "",
+      "price": 45,
+      "plus": false
+    },
+    
+   
+    {
+      "category": "NAIL ENHANCEMENT",
+      "name": "Apres Gel-X Nail Extension",
+      "url": "",
+      "price": 60,
+      "plus": true
+    },
+    {
+      "category": "NAIL ENHANCEMENT",
+      "name": "Acrylic Complete Full Set With Gel",
+      "url": "",
+      "price": 45,
+      "plus": true
+    },
+    {
+      "category": "NAIL ENHANCEMENT",
+      "name": "Acrylic Complete Full Set With Powder Color",
+      "url": "",
+      "price": 50,
+      "plus": true
+    },
+    {
+      "category": "NAIL ENHANCEMENT",
+      "name": "Acrylic Ombre Power Color",
+      "url": "",
+      "price": 55,
+      "plus": true
+    },
+    {
+      "category": "NAIL ENHANCEMENT",
+      "name": "Acrylic Pink & White",
+      "url": "",
+      "price": 55,
+      "plus": true
+    },
+    {
+      "category": "NAIL ENHANCEMENT",
+      "name": "Acrylic White Tips",
+      "url": "",
+      "price": 45,
+      "plus": true
+    },
+    {
+      "category": "NAIL ENHANCEMENT",
+      "name": "SNS Dip Color",
+      "url": "",
+      "price": 45,
+      "plus": true
+    },
+    {
+      "category": "NAIL ENHANCEMENT",
+      "name": "SNS Dip Pink & White",
+      "url": "",
+      "price": 55,
+      "plus": true
+    },
+    {
+      "category": "NAIL ENHANCEMENT",
+      "name": "SNS Dip Ombre",
+      "url": "",
+      "price": 60,
+      "plus": true
+    },
+    
+    
+    {
+      "category": "ADDITIONAL SERVICES",
+      "name": "Gel, Dipping Powder, Acrylic",
+      "url": "",
+      "price": 15,
+      "plus": true
+    },
+    {
+      "category": "ADDITIONAL SERVICES",
+      "name": "Repair / Build",
+      "url": "",
+      "price": 5,
+      "plus": true
+    },
+    {
+      "category": "ADDITIONAL SERVICES",
+      "name": "Special Shapes",
+      "url": "",
+      "price": 5,
+      "plus": true
+    },
+    {
+      "category": "ADDITIONAL SERVICES",
+      "name": "Extra Length",
+      "url": "",
+      "price": 5,
+      "plus": true
+    },
+    {
+      "category": "ADDITIONAL SERVICES",
+      "name": "Nail Designs",
+      "url": "",
+      "price": 5,
+      "plus": true
+    },
+    {
+      "category": "ADDITIONAL SERVICES",
+      "name": "French Tips",
+      "url": "",
+      "price": 7,
+      "plus": true
+    },
+    {
+      "category": "ADDITIONAL SERVICES",
+      "name": "Nails Art Designs",
+      "url": "",
+      "price": 10,
+      "plus": true
+    },
+    {
+      "category": "ADDITIONAL SERVICES",
+      "name": "Jewels Add-On",
+      "url": "",
+      "price": 7,
+      "plus": true
+    },
+    {
+      "category": "ADDITIONAL SERVICES",
+      "name": "Regular Polish Change Hand",
+      "url": "",
+      "price": 12,
+      "plus": false
+    },
+    {
+      "category": "ADDITIONAL SERVICES",
+      "name": "Regular Polish Change Toes",
+      "url": "",
+      "price": 15,
+      "plus": false
+    },
+    {
+      "category": "ADDITIONAL SERVICES",
+      "name": "Shellac Polish Change Hand",
+      "url": "",
+      "price": 25,
+      "plus": false
+    },
+    {
+      "category": "ADDITIONAL SERVICES",
+      "name": "Shellac Polish Change Toes",
+      "url": "",
+      "price": 30,
+      "plus": false
+    },
+    {
+      "category": "ADDITIONAL SERVICES",
+      "name": "Paraffin Treatment",
+      "url": "",
+      "price": 10,
+      "plus": true
+    },
+    {
+      "category": "ADDITIONAL SERVICES",
+      "name": "Callus Treatment",
+      "url": "",
+      "price": 10,
+      "plus": true
+    },
+    {
+      "category": "ADDITIONAL SERVICES",
+      "name": "Cut Down",
+      "url": "",
+      "price": 5,
+      "plus": true
+    },
+    {
+      "category": "ADDITIONAL SERVICES",
+      "name": "Cuticle Clean Up",
+      "url": "",
+      "price": 5,
+      "plus": true
+    },
+
+
+    {
+      "category": "WAXING",
+      "name": "Eyebrows",
+      "url": "",
+      "price": 15,
+      "plus": false
+    },
+    {
+      "category": "WAXING",
+      "name": "Lips",
+      "url": "",
+      "price": 10,
+      "plus": false
+    },
+    {
+      "category": "WAXING",
+      "name": "Chin",
+      "url": "",
+      "price": 10,
+      "plus": false
+    },
+    {
+      "category": "WAXING",
+      "name": "Side Burns",
+      "url": "",
+      "price": 15,
+      "plus": false
+    },
+    {
+      "category": "WAXING",
+      "name": "Whole Face",
+      "url": "",
+      "price": 45,
+      "plus": true
+    },
+    {
+      "category": "WAXING",
+      "name": "Underarms",
+      "url": "",
+      "price": 25,
+      "plus": false
+    },
+    {
+      "category": "WAXING",
+      "name": "Bikini Line",
+      "url": "",
+      "price": 45,
+      "plus": true
+    },
+    {
+      "category": "WAXING",
+      "name": "Half Arms",
+      "url": "",
+      "price": 30,
+      "plus": true
+    },
+    {
+      "category": "WAXING",
+      "name": "Full Arms",
+      "url": "",
+      "price": 50,
+      "plus": true
+    },
+    {
+      "category": "WAXING",
+      "name": "Half Legs",
+      "url": "",
+      "price": 40,
+      "plus": true
+    },
+    {
+      "category": "WAXING",
+      "name": "Full Legs",
+      "url": "",
+      "price": 60,
+      "plus": true
+    },
+    {
+      "category": "WAXING",
+      "name": "Back",
+      "url": "",
+      "price": 45,
+      "plus": true
+    },
+    {
+      "category": "WAXING",
+      "name": "Check",
+      "url": "",
+      "price": 45,
+      "plus": true
+    },
+    {
+      "category": "WAXING",
+      "name": "Brazilian",
+      "url": "",
+      "price": 60,
+      "plus": true
+    },
+
+
+    {
+      "category": "ADD-ON",
+      "name": "Gel Polish Add-On",
+      "url": "",
+      "price": 15,
+      "plus": false
+    },
+    {
+      "category": "ADD-ON",
+      "name": "Shiny Buf Add-On",
+      "url": "",
+      "price": 5,
+      "plus": false
+    },
+    {
+      "category": "ADD-ON",
+      "name": "Foot Massage For 15 Min",
+      "url": "",
+      "price": 20,
+      "plus": false
+    },
+    {
+      "category": "ADD-ON",
+      "name": "Foot Massage For 30 Min",
+      "url": "",
+      "price": 40,
+      "plus": false
+    },
+
+
+    {
+      "category": "FACIAL",
+      "name": "Mini Facial",
+      "url": "",
+      "price": 45,
+      "plus": false
+    },
+    {
+      "category": "FACIAL",
+      "name": "Pure Facial",
+      "url": "",
+      "price": 65,
+      "plus": false
+    },
+    {
+      "category": "FACIAL",
+      "name": "European Facial",
+      "url": "",
+      "price": 80,
+      "plus": false
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Menu | Rejuvenation Nails & Spa</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
+
+    <!-- Favicon -->
+    <link href="Rejuvenation-nails-spa-favicon.svg" rel="icon">
+
+    <!-- Google Font -->
+    <link href="css/font.css" rel="stylesheet">
+    <link href="css/font-sala.css" rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="css/owl.carousel.css" rel="stylesheet" />
+    <link href="css/owl.theme.default.min.css" rel="stylesheet" />
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<style>
+    .service_name {
+        font-family: revert;
+        font-size: 16px;
+    }
+
+    .service_price {
+        color: var(--primary);
+    }
+</style>
+
+<body>
+    <!-- Nav Bar Start -->
+    <div id="header"></div>
+    <!-- Nav Bar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="page-header mb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Our Services</h2>
+                </div>
+                <div class="col-12">
+                    <a href="">Home</a>
+                    <a href="">Services</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Menu Start -->
+    <div class="service">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Rejuvenation Nails & Spa</p>
+                <h2>Our Services</h2>
+            </div>
+
+            <!-- TO DO -->
+            <div class="row justify-content-center" id="servicesOfCate">
+            </div>
+
+        </div>
+    </div>
+    <!-- Menu End -->
+
+
+    <!-- Footer Start -->
+    <div id="footer"></div>
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script>
+
+        var topIMG = "img/Rejuvenation-nails-spa-logo.png";
+        var sclIMG = "img/Rejuvenation-nails-spa-logo.png";
+
+        $('img[alt="Rejuvenation Nails & Spa logo"]').attr("class", "logo")
+
+        $(window).scroll(function () {
+            var value = $(this).scrollTop();
+            if (value > 50)
+                $("#logo-white").attr("src", sclIMG);
+            else
+                $("#logo-white").attr("src", topIMG);
+        });
+    </script>
+
+    <script src='./scripts/load_data_util.js' async></script>
+    <script>
+        $(document).ready(function () {
+            loadData("SERVICES");
+        });
+    </script>
+
+</body>
+
+</html>
